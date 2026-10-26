@@ -1,0 +1,55 @@
+{
+  "contributes": {
+    "commands": [
+      {
+        "command": "sample.hello.count",
+        "title": "%count%"
+      }
+    ],
+    "menus": {
+      "app/plugins": [
+        {
+          "command": "sample.hello.count"
+        }
+      ]
+    },
+    "sidebarTabs": [
+      {
+        "id": "sample.hello.headings",
+        "title": "%headings%",
+        "type": "list"
+      }
+    ]
+  },
+  "description": "%description%",
+  "engines": {
+    "textus": ">=1.3.0-beta.2"
+  },
+  "id": "sample.hello",
+  "l10n": {
+    "en": {
+      "count": "Count Words",
+      "description": "A first plugin: counts the words of the document in front, and lists its headings in the sidebar.",
+      "headings": "Headings",
+      "name": "Hello",
+      "none": "This document has no headings yet.",
+      "words": "{0} words"
+    },
+    "zh": {
+      "count": "统计字数",
+      "description": "第一个插件：数一数当前文档的字数，并在侧栏列出它的标题。",
+      "headings": "标题",
+      "name": "你好",
+      "none": "这篇文档还没有标题。",
+      "words": "{0} 个字"
+    }
+  },
+  "license": "MIT",
+  "main": "host.js",
+  "name": "%name%",
+  "permissions": [
+    "editor.read"
+  ],
+  "publisher": "sample",
+  "version": "0.1.0"
+}
