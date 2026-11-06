@@ -1,6 +1,6 @@
 # Hello
 
-A sample plugin for [Textus](https://textus.catvinci.com): it counts the words of the document in front, and lists its headings in the sidebar.
+A sample plugin for [Textus](https://textus.md): it counts the words of the document in front, and lists its headings in the sidebar.
 
 This repository is laid out as **Export for Publishing** in Textus lays out a plugin, and is listed the way any plugin from outside CatVinci Studio is (see [LISTING.md](https://github.com/CatVinci-Studio/textus-plugins/blob/main/LISTING.md)). Start yours from it.
 
